@@ -24,8 +24,6 @@
 </head>
 
 <body>
-<h1><a name="topic-3"></a><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-<?php bloginfo('description'); ?>
 
 </body>
 
