@@ -47,13 +47,13 @@
 			</div>
 			
 			<?php endwhile; ?>
-				
+<!--文章的分页符号--!>				
 				<div class="navigation">
 					<?php posts_nav_link(); ?>
 				</div>
 				
 			<?php else : ?>
-			 		
+<!--无文章时返回的信息--!>			 		
 			 		<div class="post" >
 			 		<h2><?php _e('Not_found'); ?></h2>
 					</div>
