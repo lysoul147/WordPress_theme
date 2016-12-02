@@ -25,6 +25,7 @@
 
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
   <div id="header">
     <h1><a name="topic-3"></a><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -34,6 +35,8 @@
 <h1><a name="topic-3"></a><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 <?php bloginfo('description'); ?>
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 2600c7b... 0.0.2
 
 </body>
 
