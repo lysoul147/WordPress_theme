@@ -66,6 +66,8 @@
 <!--创建侧边栏div-->
 	<div id="sidebar">
 		<ul>
+<!--使侧边栏窗体化-->
+			<?php if(function_exists('dynamic_sidebar') && dynamic_sidebar()): else: ?>
 <!--添加搜索框-->
 			<li id='search'>
 				<?php include(TEMPLATEPATH . '/searchform.php'); ?>
@@ -113,7 +115,7 @@
 					<?php wp_meta(); ?>
 				</ul>
 			</li>
-
+			<?php endif; ?>
 		</ul>
 	</div>
 
