@@ -119,6 +119,13 @@
 		</ul>
 	</div>
 
+<!--添加底部栏，包括版权信息，设计师名称-->
+	<div id="footer">
+		<p>
+			Copyright © 2016 <?php bloginfo('name'); ?>
+		</p>
+	</div>
+
 </body>
 
 </html>
