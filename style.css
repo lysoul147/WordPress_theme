@@ -15,3 +15,103 @@ Author URI: http://www.wpdesigner.com/
 
 
 */
+
+body,h1,h2,h3,h4,h5,h6,p,blockquote{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Georgia, sans-serif;
+	text-align: center;
+	vertical-align: top;
+	background-color: #F0F4F8;
+	color: #232B33;
+}
+
+h1{
+	font-family: Georgia, Sans-serif;
+	font-size: 30px;
+	padding: 0 0 10px 0;
+}
+
+/* 用于设置链接样式*/
+
+a:link, visited{
+	text-decoration: none;
+	color: #232B33;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #479DF0;
+}
+
+p{
+	padding: 10px 0 0 0
+}
+
+#wrapper{
+	margin: 0 auto 0 auto;
+	width: 750px;
+	text-align: left;
+}
+
+#header{
+	float: left;
+	width: 750px;
+	margin: 0 0 10px 0;
+	background: #ffffff;
+}
+
+#container{
+	float: left;
+	width: 500px;
+}
+
+.post{
+	padding: 10px 0 10px 0;
+	background: #ffffff;
+	
+}
+
+.post h2{
+	font-family: Georgia, Sans-serif;
+	font-size: 18px;
+}
+
+.entry{
+	line-height: 22px;
+}
+
+/*设置postmetadata的样式*/
+p.postmetadata{
+	
+}
+
+.navigation{
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+	
+#sidebar{
+	float: right;
+	width: 240px;
+	background: #ffffff;
+	margin:0 0 0 10px;
+	<strong>display: inline;</strong>
+}
+
+#footer{
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	color: #dcdcdc;
+	width: 750px;
+	clear: both;
+	margin:30px 0 0 0;
+}
