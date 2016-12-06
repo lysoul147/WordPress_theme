@@ -16,7 +16,7 @@ Author URI: http://www.wpdesigner.com/
 
 */
 
-body,h1,h2,h3,h4,h5,h6,p,blockquote{
+body,h1,h2,h3,h4,h5,h6,p<strong>,form</strong>,blockquote,address,hr,dd,dl{
 	margin: 0;
 	padding: 0;
 }
@@ -27,7 +27,7 @@ body{
 	font-family: Arial, Helvetica, Georgia, sans-serif;
 	text-align: center;
 	vertical-align: top;
-	background-color: #F0F4F8;
+	background-color: #F3F5F8;
 	color: #232B33;
 }
 
@@ -106,12 +106,32 @@ p.postmetadata{
 	<strong>display: inline;</strong>
 }
 
+#sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+
+#sidebar ul li{
+	padding: 10px 0 10px 0;
+}
+
+#sidebar ul li h2{
+	font-family: Georgia, Sans-serif;
+	font-size: 14px;
+}
+
+#sidebar ul ul li{
+	padding: 0;
+	line-height: 24px;
+}
+
 #footer{
 	float: left;
 	text-align: center;
-	font-size: 10px;
-	color: #dcdcdc;
+	font-size: 12px;
+	color: #929CA6;
 	width: 750px;
 	clear: both;
-	margin:30px 0 0 0;
+	margin:30px 0 15px 0;
 }
