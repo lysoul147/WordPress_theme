@@ -135,3 +135,7 @@ p.postmetadata{
 	clear: both;
 	margin:30px 0 15px 0;
 }
+
+#footer p{
+	line-height: 18px;
+}
